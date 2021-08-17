@@ -1,0 +1,59 @@
+.launch_page_container{
+    padding: 1rem;
+    
+}
+
+.back_button{
+    font-size: 1.6em;
+}
+.back_button:hover{
+    color: #005288;
+}
+
+.info_top{
+    margin-top: 1.5em;
+    padding-bottom: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.info_nav{
+    display: flex;
+}
+.info_nav a:hover{
+    color: #005288;
+}
+
+.info_desc{
+ padding: 1.5em 0 4.5em;
+ width: 100%;
+}
+
+.info_gallery{
+    column-count: 4;
+    column-gap: 1em;
+}
+.imgitem{
+    display: inline-block;
+ 
+    width: 100%;
+
+
+}
+
+.imgitem>div{
+    position: unset !important;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+    border-radius: 5px;
+}
+
+.imgitem img{
+    
+    object-fit: contain;
+    width: 100% !important;
+    position: relative !important;
+    height: auto     !important;
+    
+}

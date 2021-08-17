@@ -7,7 +7,7 @@ const LaunchHeader=({next})=> {
         <div className={styles.launch_header_container}>
 <div className={styles.logo}>
 <Link href='/' >
-<Image src={logo} alt="logo" />
+<Image src={logo} alt="logo" rel="preload" />
 </Link>
 </div>
 <div className={styles.info_box}>
