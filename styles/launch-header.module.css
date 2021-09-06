@@ -57,3 +57,50 @@
     padding: 0 3em;
     font-weight: 300;
 }
+
+@media screen and (max-width: 622px) {
+    .info_box table{
+        font-size: 0.7em;
+    
+    }
+   
+    .info_box table td{
+        
+        border-left:0px solid #9FA1A2;
+        padding:0.1em;
+  
+    }
+    
+    .info_box table th{
+        border-left:0px solid #9FA1A2;
+        padding: 0.7em;
+   
+    }
+    
+    .info_box{
+        flex-direction: column;
+        padding: 1em;
+        height: auto;
+        top: 45%;
+         
+        
+    }
+    .info_box span{
+        margin-bottom: 0.5em;
+        border-bottom:1px solid #9FA1A2;
+    }
+
+    .launch_header_container{
+  
+    height: 450px;
+    }
+  }
+
+  @media screen and (max-width: 380px) {
+    .info_box{
+      
+           background: url('../public/headerbackground.jpg');
+  
+        
+    }
+  }
