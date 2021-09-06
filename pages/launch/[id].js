@@ -6,6 +6,8 @@ const LaunchPage = ({launch}) => {
   
     let nextFlight= launch.flight_number +1;
 
+    let prevFlight= launch.flight_number -1;
+
     return (
    
         <div className={styles.launch_page_container}>
