@@ -45,7 +45,7 @@ alt="spacexlaunchimage"  src={`${item}`}/>
      
       const res =await fetch(`https://api.spacexdata.com/v3/launches/${context.params.id}`)
       const launch = await res.json()
-      console.log(context.params.id)
+      
       if (context.params.id==="NaN") {
         return {
           redirect: {
