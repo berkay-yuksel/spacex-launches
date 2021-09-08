@@ -21,3 +21,12 @@ p,h1{
   -webkit-margin-before: 0em;
   -webkit-margin-after: 0em;
 }
+body::-webkit-scrollbar {
+  width: 0.35rem;
+}
+body::-webkit-scrollbar-thumb {
+  background: #005289;
+}
+body::-webkit-scrollbar-track {
+  background: #9FA1A2;git 
+}
