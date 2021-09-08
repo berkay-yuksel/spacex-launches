@@ -7,13 +7,14 @@ const LaunchHeader=({next})=> {
         <div className={styles.launch_header_container}>
 <div className={styles.logo}>
 <Link href='/' >
-<Image src={logo} alt="logo" rel="preload" />
+<div><Image src={logo} alt="logo" rel="preload" /></div>
 </Link>
 </div>
 <div className={styles.info_box}>
 <span>NEXT LAUNCH</span>
 <table>
-  <tr>
+<tbody>
+<tr>
     <th>Flight Number</th>
     <th>Mission</th>
     <th>Rocket Number</th>
@@ -25,6 +26,7 @@ const LaunchHeader=({next})=> {
     <td>{next.rocket.rocket_name}</td>
      <td>{next.launch_date_local.split("T")[0]}</td>
   </tr>
+</tbody>
 </table>
 </div>
 

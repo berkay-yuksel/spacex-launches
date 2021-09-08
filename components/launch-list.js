@@ -10,7 +10,7 @@ const LaunchList = ({ past }) => {
         .slice(0)
         .reverse()
         .map((item) => (
-          <Link href={`/launch/${item.flight_number}`}>
+          <Link key={item.flight_number} href={`/launch/${item.flight_number}`}>
             <div className={styles.launch_item} key={item.flight_number}>
               <Image
                 height="270px"
