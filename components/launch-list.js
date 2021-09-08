@@ -15,6 +15,7 @@ const LaunchList = ({ past }) => {
               <Image
                 height="270px"
                 width="330px"
+                alt="launch-list-image"
                 src={
                   `${item.links.flickr_images[0]}` === "undefined"
                     ? errorImage

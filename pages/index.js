@@ -10,6 +10,7 @@ export default function Home({ past, next }) {
         <title>SpaceX Launches</title>
         <meta name="description" content="Berkay Yüksel NextJs SpaceX Launches Project" />
         <link rel="icon" href="/favicon.ico" />
+  
       </Head>
       <div>
         <LaunchHeader next={next} />
