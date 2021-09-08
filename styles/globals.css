@@ -22,7 +22,7 @@ p,h1{
   -webkit-margin-after: 0em;
 }
 body::-webkit-scrollbar {
-  width: 0.35rem;
+  width: 0.45rem;
 }
 body::-webkit-scrollbar-thumb {
   background: #005289;
